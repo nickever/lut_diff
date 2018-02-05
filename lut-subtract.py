@@ -50,9 +50,9 @@ def _output(header, body):
     f.close()
 
 
-lut_1 = "./HELIUM-TO-DXL-FILM.cube"
-lut_2 = "./LI_COLOR_FILM_709_VER_0_5_35.cube"
-base_lut = "./Blank.cube"
+lut_1 = # File Path String Here
+lut_2 = # File Path String Here
+base_lut = "./blank.cube"
 
 try:
     header1, lut_list1 = _get_values(lut_1)
