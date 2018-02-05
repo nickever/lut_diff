@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 
 """
-CLI to find the difference between one LUT and another
+Find the difference between one LUT and another
 """
+
+__author__ = "Nick Everett"
+__version__ = "0.5.0"
+__license__ = "GNU GPLv3"
 
 import sys
 import operator
