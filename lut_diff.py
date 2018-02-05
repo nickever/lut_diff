@@ -15,12 +15,12 @@ import operator
 def _get_values(file):
     with open(file) as f:
         header = [x for x in next(f).split()]
-        array = []
+        value_list = []
         for line in f:
             for value in line.split():
-                array.append(float(value))
+                value_list.append(float(value))
     f.close()
-    return header, array
+    return header, value_list
 
 
 def _subtract(list1, list2):
