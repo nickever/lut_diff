@@ -5,7 +5,7 @@ Find the difference between one LUT and another
 """
 
 __author__ = "Nick Everett"
-__version__ = "0.5.0"
+__version__ = "1.0.0"
 __license__ = "GNU GPLv3"
 
 import sys
@@ -50,8 +50,8 @@ def _output(header, body):
     f.close()
 
 
-lut_1 = # File Path String Here
-lut_2 = # File Path String Here
+lut_1 = # File path here
+lut_2 = # File path here
 base_lut = "./blank.cube"
 
 try:
