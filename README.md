@@ -1,2 +1,4 @@
 # lut_diff
-Compare two Look Up Tables to find the differences between them
+
+Quantify the difference between two Look Up Tables (LUTs).
+Generates a LUT that is the difference between the two input.
