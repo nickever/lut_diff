@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 """
-Find the difference between one LUT and another
+Quantify the difference between two Look Up Tables (LUTs).
+Generates a LUT that is the difference between the two input.
 """
 
 __author__ = "Nick Everett"
-__version__ = "1.0.0"
+__version__ = "0.5.0"
 __license__ = "GNU GPLv3"
 
 import sys
